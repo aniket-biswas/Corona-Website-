@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    padding:0;
+    background:url("../Pictures/corona.jpeg") center;
+}
+.header{
+    padding:20px;
+    height:50vh;
+    background-size:cover;
+    position:relative
+}
+
+.header h1{
+    margin:0;
+    font-weight:bold;
+    font-size:3rem;
+    color:#fff;
+    text-align: center;
+    font-family:karla
+}
+header .title{
+    padding-top: 200px;
+}
+
+header ul li{
+    list-style-type:none
+}
+
+header ul{
+    display:flex;
+    align-content: center;
+    justify-content:center;
+}
+
+header ul li a {
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#ccc;
+    font-size: 1rem;
+    text-decoration: none;
+    padding:1rem;
+    letter-spacing:1px;
+    font-family: montserrat;
+}
+
+header ul li a:hover{
+    color:brown
+}
+
+time{
+    display:block;
+    font-size: 3rem;
+    font-weight:bold;
+    margin-bottom: 10px;
+}
+
+.timeline ul{
+    list-style-type:none;
+    padding: 50px 0;
+}
+.timeline ul li{
+    position:relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background:white;
+}
+.timeline ul li div{
+    position:relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    background:#ff7171
+}
+.timeline ul li:nth-child(odd) div{
+
+    left: 45px;
+    transform: translate3d( 200px, 0 ,0)
+}
+.timeline ul li:nth-child(even) div{
+
+    right: 470px;
+    transform: translate3d(-200px, 0 ,0)
+    
+}
+
+.timeline ul li div{
+    visibility: hidden;
+    opacity: 0;
+    transition: all 1s ease-in-out
+}
+
+.timeline ul li.in-view div{
+    transform: none;
+    visibility: visible;
+    opacity:1;
+}
