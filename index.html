@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona Testing</title>
+    <link rel="stylesheet" href="newstyle.css">
+	
+</head>
+<body>
+    <div class="header">
+        <ul>
+            <li><a href ="../Home/index.html">Home</a></li>
+            <li><a href ="../Timeline/index.html">Timeline</a></li>
+            <li><a href ="../Form/newindex.html">Corona Testing</a></li>
+        </ul>
+    </div>
+    
+    <div class="regform">
+		
+	</div>
+
+	<div class="main">
+		<form id="testForm">
+			<div class="Inform">
+			<h1>Information Form</h1>
+			</div>
+			<div id="name">
+				<h2 class="name">Name</h2><br>
+				<input id="firstname" type="text" required name="first_name"><br>
+				<label id="firstlabel"> First Name</label>
+				<input id="lastname" type="text" required name="last_name"><br>
+				<label id="lastlabel"> Last Name</label>
+			</div>
+
+			<h2 class="name">Profession</h2>
+			
+			<input id="profession" type="text" name="profession" placeholder="Mention your profession">
+			
+
+			<h2 class="name">Email</h2>
+			<input id="email" type="email" required name="email" placeholder="abc@xyz.com">
+			<h2 class="name">Date Of Birth</h2>
+			<input id="dateofbirth" type="date" required name="dateofbirth">
+
+			<h2 class="name">Mobile Number</h2>
+			<input id="mobile" type="text" name="mobile" required pattern="[789][0-9]{9}">
+
+			<h2 class="name"> State or Union Territory</h2>
+			<select id="state" name="state">
+				<option disabled="disabled" required selected="selected">--choose</option>
+				<option> Andhra Pradesh</option>
+				<option> Arunachal Pradesh</option>
+				<option> Assam</option>
+				<option> Bihar</option>
+				<option> Chattisgarh</option>
+				<option> Goa</option>
+				<option> Gujarat</option>
+				<option> Haryana</option>
+				<option> Himachal Pradesh</option>
+				<option> Jharkhand</option>
+				<option> Karnataka</option>
+				<option> Kerala</option>
+				<option> Madhya Pradesh</option>
+				<option> Maharashtra</option>
+				<option> Meghalaya</option>
+				<option> Mizoram</option>
+				<option> Nagaland</option>
+				<option> Punjab</option>
+				<option> Rajasthan</option>
+				<option> Sikkim</option>
+				<option> Tamil Nadu</option>
+				<option> Telangana</option>
+				<option> Tripura</option>
+				<option> Uttarakhand</option>
+				<option> Uttar Pradesh</option>
+				<option> West Bengal</option>
+				<option> Andaman and Nicobar Islands</option>
+				<option> Dadra and Nagar Haveli and Daman and Diu</option>
+				<option> The Government of NCT of Delhi</option>
+				<option>Jammu and Kashmir </option>
+				<option>Ladakh</option>
+				<option> Lakshadweep</option>
+				<option> Puducherry</option>
+
+				
+				
+
+			</select>
+
+			<h2 id="travel"> Have you travelled to COVID affected country within last 1 month?</h2>
+			<div id="travel">
+				<input type="radio" name="option" value="Yes"> Yes
+				<input type="radio" name="option" value="No" checked="checked"> No
+			</div>
+
+			<h2 id="symptoms">Do you have any of the following symptoms ?</h2>
+			<div class="arrange">
+				<input type="checkbox" name="symptoms" value="Fever" id="cb1"><label for="cb1">Fever</label><br>
+				<input type="checkbox" name="symptoms" value="Dry Cough" id="cb2"><label for="cb2">Dry Cough</label><br>
+				<input type="checkbox" name="symptoms" value="Cold" id="cb3"><label for="cb3">Cold</label><br>
+				<input type="checkbox" name="symptoms" value="Breathing Issues" id="cb4"><label for="cb3">Breathing Issues</label><br>
+				<input type="checkbox" name="symptoms" value="Chest Pain" id="cb5"><label for="cb3">Chest Pain</label><br>
+			</div><br>
+			<input id="submit" type="submit">
+
+			</p>
+			<h2 id="centers"> Testing Centres around you: <span id="result"></span><br>
+	</div>
+	</form>
+	</div>
+	<div class="create">
+	<p>Created by Aniket Biswas</p>
+	
+	</div>
+	<!--<div class="img1"><img src="../Pictures/corona-virus-getty.jpg" width="150px"
+		height="100px"></div>
+	
+	<div class="img2"><img src="../Pictures/Corona-5.jpg" width="150px"
+		height="100px"></div>
+	
+	<div class="img3"><img src="../Pictures/Coronavirus-1.jpg" width="150px"
+		height="100px"></div>
+	
+	<div class="img4"><img src="../Pictures/Corona-5.jpg" width="150px"
+		height="100px"></div>
+	
+	<div class="img5"><img src="../Pictures/Down-Image.jpg" width="150px"
+		height="100px"></div>
+	
+	<div class="img6"><img src="../Pictures/corona.jpeg" width="150px"
+		height="100px"></div>-->
+	
+	<script>
+
+		
+
+	</script>
+	<script src="https://www.gstatic.com/firebasejs/8.3.1/firebase.js"></script>
+
+	<script src="../Form/newscript.js"></script>
+
+
+
+
+
+
+
+</body>
+</html>
